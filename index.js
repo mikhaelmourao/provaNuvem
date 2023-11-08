@@ -4,7 +4,7 @@ const app = express(); //iniciando o express
 //criando a rota inicial
 app.get("/", function(req,res){
     
-     res.send("<h1>Bem vindo ao meu site!rota 1 </h1>");
+     res.send("<h1>Bem vindo ao meu site!rota 1 alteração do clone</h1>");
      
      
     
