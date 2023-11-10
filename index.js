@@ -3,13 +3,13 @@ const app = express(); //iniciando o express
 
 
 app.get("/", function(req,res){
-    res.send("<h1>Bem vindo ao meu site!</h1>");
+    res.send("<h1>Bem vindo ao meu site! modificado</h1>");
      
 })
 
 
 app.get("/contato", function(req,res){
-    res.send("<h1>Lista de contato!</h1>");
+    res.send("<h1>Lista de contato! modificado</h1>");
 })
 
 
